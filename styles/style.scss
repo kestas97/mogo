@@ -1,61 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&family=Roboto:ital,wght@0,400;1,300&display=swap');
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
-header {
-    font-size: 0;
-    box-sizing: border-box;
-    border: 1px solid green;
-    width: 1920px;
-    height: 100vh;
-    background-image:
+
+
+.container {
+  width: 90%;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+.iner-container {
+  
+  border: 1px solid red;
+  width: 1920px;
+  height: 100vh;
+  background-image:
     linear-gradient(to bottom,rgba(241, 217, 138, 0.90), rgba(232, 129, 130, 0.90)),
     url('../img/Layer\ 15.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
+.logo {
+  margin-left: 100px;
+  font-size: 20px;
+  padding: 10px 10px;
+  display: inline-block;
 
-nav {
-        ul {
-            text-align: right;
-            // margin-left: 943px;
-            list-style: none;
-          }
-        
-          li {
-             display: inline-block;
-               padding: 40px 0px 8px 40px;
-        }
-          a {
-            color: #fdf7f7 ;
-            font-family: 'Montserrat', sans-serif,;
-            font-size: 14px;
-            text-decoration: none;
-          }
-         
+  a {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+
+.navbar {
+  margin-left: 50%;
+  display: inline-block;
+}
+
+ul, li {
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  padding: 10px 10px;  
+  display: inline-block;
+
+  a {
+    color: #fdf7f7 ;
+    font-family: 'Montserrat', sans-serif,;
+    font-size: 14px;
+  }
+}
+ .carousel-inner {
+  width: 40%;
+  border: 1px solid green;
+  margin: 0 auto;
+  margin-top: 70px;
+  .item {
+
+    h1, h2 {
+      text-align: center;
     }
-    div.navbar {
-        font-size: 0;
-        box-sizing: border-box;
-        margin: auto;
-        // display: inline-block;
-        border: 1px solid red;
-        width: 90%;
-        // height: 70px;
+  }
+ }
 
-        a.logo {
-            // margin-left: 361px;
-            padding-right: 0;
-            font-family: 'Montserrat', sans-serif,;
-            font-size: 30px;
-            color: white;
-            // font-weight: bold;
-            text-decoration: none;
-        }
-    }
-    
-    
+ main {
+  .container {
+    width: 1920px;
+    height: 100vh;
 
+    margin: 0 auto;
+  }
+ }
 
